@@ -12259,4 +12259,12 @@
   <block id="4ee2d87695f5bb64b27457df2a7c6e41" category="sidebar">重新同步複寫關係</block>
   <block id="909a1c829d29d09da00949e5c8b87a0e" category="sidebar">升級您的 NetApp SolidFire All Flash 儲存系統</block>
   <block id="b837bae0f441ebacd86887d737939282" category="sidebar">系統升級程序</block>
+  <block id="c99fba0db719381ede00d894486894a0" category="cell">* 儲存韌體套件 2.182.0*</block>
+  <block id="f60525d0f867ed7f15f5ebf94bb879df" category="cell">2024-10-17</block>
+  <block id="40d02a54e5711497609651e0d06eb4ab" category="cell">3B14</block>
+  <block id="c55a468007fe87cc9f913dec692ea9eb" category="cell">4.01.07</block>
+  <block id="9365eb81d2e69739b5c5c0a6bda52315" category="cell">GDC5A02Q</block>
+  <block id="1a9f7cf4eade0ea391d219a7acbeea22" category="cell">11093A10</block>
+  <block id="a789af7a3f0be8e6b5b27e8f2c902f38" category="cell">110B3A10</block>
+  <block id="7a1a50b4f214356238b1fdd7473fb635" category="cell">NAT3.6</block>
 </blocks>
