@@ -2,7 +2,7 @@
 permalink: storage/task-element-replication-create-relationship-element-destination.html 
 sidebar: sidebar 
 keywords: ontap, cli, create, relationship, replication, snapmirror 
-summary: 從 ONTAP 9 4 開始、您可以使用 ONTAP CLI 建立關係、使用 SnapMirror 將在 ONTAP 來源上建立的 LUN 快照複本複寫回元素目的地。 
+summary: 從 ONTAP 9 。 4 開始、您可以使用 SnapMirror 將 ONTAP 來源上建立的 LUN 快照複本複寫回元素目的地。 
 ---
 = 建立ONTAP 從來源到元素目的地的關係
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 從 ONTAP 9 4 開始、您可以使用 ONTAP CLI 建立關係、使用 
 
 
 [role="lead"]
-從 ONTAP 9 4 開始、您可以使用 ONTAP CLI 建立關係、使用 SnapMirror 將在 ONTAP 來源上建立的 LUN 快照複本複寫回元素目的地。您可能會使用LUN將資料從ONTAP 功能不全的軟體移轉到元件軟體。
+從 ONTAP 9 。 4 開始、您可以使用 SnapMirror 將 ONTAP 來源上建立的 LUN 快照複本複寫回元素目的地。您可能會使用LUN將資料從ONTAP 功能不全的軟體移轉到元件軟體。
 
 .開始之前
 * 元素目的地節點必須已可供ONTAP 不必要的人存取。

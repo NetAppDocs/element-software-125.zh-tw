@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-initialize-replication-relationship.html 
 sidebar: sidebar 
-keywords: initialize, replication, relationship 
+keywords: ontap, cli, initialize, replication, relationship 
 summary: 對於所有關係類型、初始化會執行基準傳輸：它會建立來源 Volume 的快照複本、然後將該複本及其參照的所有資料區塊傳輸至目的地 Volume 。 
 ---
 = 初始化複寫關係
@@ -17,6 +17,12 @@ summary: 對於所有關係類型、初始化會執行基準傳輸：它會建�
 * 包含要複寫之磁碟區的元素節點必須可供ONTAP 支援的項目。
 * 必須已啟用元素Volume才能進行SnapMirror複寫。
 * 如果您使用「鏡射資料保險箱」原則類型、則必須設定 SnapMirror 標籤、才能複寫元素快照複本。
++
+[NOTE]
+====
+您只能在或中執行此工作link:concept_snapmirror_labels.html["Element 軟體 Web UI"]link:../api/concept_element_api_snapshots_overview.html["API方法"]。
+
+====
 
 
 .關於這項工作

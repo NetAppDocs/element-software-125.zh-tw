@@ -1,8 +1,8 @@
 ---
 permalink: storage/task-element-replication-enable-snapmirror-cluster.html 
 sidebar: sidebar 
-keywords: enable, snapmirror, element, cluster 
-summary: 您必須在元素叢集上啟用SnapMirror、才能建立複寫關係。您只能在Element軟體Web UI中執行此工作。 
+keywords: ontap, cli, enable, snapmirror, element, cluster 
+summary: 您必須在元素叢集上啟用SnapMirror、才能建立複寫關係。您只能在元素軟體 Web UI 或 API 方法中執行此工作。 
 ---
 = 在元素叢集上啟用SnapMirror
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 您必須在元素叢集上啟用SnapMirror、才能建立複寫關係�
 
 
 [role="lead"]
-您必須在元素叢集上啟用SnapMirror、才能建立複寫關係。您只能在Element軟體Web UI中執行此工作。
+您必須在元素叢集上啟用SnapMirror、才能建立複寫關係。您只能在元素軟體 Web UI 或使用中執行此工作link:../api/reference_element_api_enablefeature.html["API方法"]。
 
 .開始之前
 * Element叢集必須執行NetApp Element 版本10.1或更新版本的支援。

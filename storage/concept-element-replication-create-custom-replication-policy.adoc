@@ -2,7 +2,7 @@
 permalink: storage/concept-element-replication-create-custom-replication-policy.html 
 sidebar: sidebar 
 keywords: ontap, cli, create, custom, replication, policy, relationship, 
-summary: 如果關聯的預設原則不適用、您可以使用 ONTAP CLI 建立自訂複寫原則。 
+summary: 如果關聯的預設原則不適用、您可以建立自訂複寫原則。 
 ---
 = 建立自訂複寫原則
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 如果關聯的預設原則不適用、您可以使用 ONTAP CLI 建立
 
 
 [role="lead"]
-使用 ONTAP CLI 建立複寫關係時、您可以使用預設或自訂原則。對於自訂的統一複寫原則、您必須定義一或多個 _ 規則 _ 、以決定在初始化和更新期間傳輸哪些快照複本。
+您可以在建立複寫關聯時使用預設或自訂原則。對於自訂的統一複寫原則、您必須定義一或多個 _ 規則 _ 、以決定在初始化和更新期間傳輸哪些快照複本。
 
 如果關聯的預設原則不適用、您可以建立自訂複寫原則。例如、您可能想要壓縮網路傳輸中的資料、或是修改 SnapMirror 嘗試傳輸快照複本的次數。
 

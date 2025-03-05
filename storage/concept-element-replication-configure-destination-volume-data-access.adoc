@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept-element-replication-configure-destination-volume-data-access.html 
 sidebar: sidebar 
-keywords: configure, destination, volume, data access 
+keywords: ontap, cli, configure, destination, volume, data access 
 summary: 將目的地Volume設為可寫入後、您必須設定該磁碟區以進行資料存取。SAN主機可從目的地磁碟區存取資料、直到重新啟動來源磁碟區為止。 
 ---
 = 設定目的地Volume以進行資料存取

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-reactivate-original-source-volume.html 
 sidebar: sidebar 
-keywords: reactivate. original, source, volume 
+keywords: ontap, cli, reactivate, original, source, volume 
 summary: 當您不再需要從目的地提供資料時、可以重新建立來源與目的地磁碟區之間的原始資料保護關係。 
 ---
 = 重新啟動原始來源Volume

@@ -2,7 +2,7 @@
 permalink: storage/task-element-replication-enable-snapmirror-source-volume.html 
 sidebar: sidebar 
 keywords: enable, snapmirror, element, source, volume 
-summary: 您必須在元素來源Volume上啟用SnapMirror、才能建立複寫關係。您只能在Element軟體Web UI中執行此工作。 
+summary: 您必須在元素來源Volume上啟用SnapMirror、才能建立複寫關係。您只能在元素軟體 Web UI 或 API 方法中執行此工作。 
 ---
 = 在元素來源Volume上啟用SnapMirror
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 您必須在元素來源Volume上啟用SnapMirror、才能建立複寫�
 
 
 [role="lead"]
-您必須在元素來源Volume上啟用SnapMirror、才能建立複寫關係。您只能在Element軟體Web UI中執行此工作。
+您必須在元素來源Volume上啟用SnapMirror、才能建立複寫關係。您只能在元素軟體 Web UI 中執行此工作、或使用link:../api/reference_element_api_modifyvolume.html["ModifyVolume"]和 link:../api/reference_element_api_modifyvolumes.html["ModifyVolumes"] API 方法。
 
 .開始之前
 * 您必須在元素叢集上啟用SnapMirror。

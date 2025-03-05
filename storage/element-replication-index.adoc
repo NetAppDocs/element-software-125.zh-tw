@@ -1,10 +1,10 @@
 ---
 permalink: storage/element-replication-index.html 
 sidebar: sidebar 
-keywords: decide, replication, netapp element software, ontap, business continuity, element, system, snapmirror, replicate, snapshot, copies, volume 
+keywords: ontap, cli, replication, element, software, ontap, business continuity, snapmirror, replicate, snapshot, copies, volume 
 summary: 您可以使用 SnapMirror 將元件磁碟區的快照複本複製到 ONTAP 目的地、確保元件系統上的業務持續運作。 
 ---
-= 在不同時複寫NetApp Element 功能的軟體與ONTAP 非本性概述之間
+= 在 NetApp Element 軟體和 ONTAP 總覽（ ONTAP CLI ）之間執行複寫
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -18,7 +18,7 @@ summary: 您可以使用 SnapMirror 將元件磁碟區的快照複本複製到 O
 如果適用下列情況、您應該使用元素ONTAP 進行支援：
 
 * 您想要使用最佳實務做法、而非探索每個可用選項。
-* 您想要使用 ONTAP 命令列介面（ CLI ）、而非元素 UI 、系統管理員、儲存 / 概念元素複寫 - cree-custom-replements-policy 或自動化指令碼工具。
+* 您想要使用ONTAP 的是無法使用系統管理程式或自動化指令碼工具的功能、而是使用功能不全的命令列介面（CLI）。
 * 您使用iSCSI將資料提供給用戶端。
 
 
@@ -145,7 +145,7 @@ Unified7年
 +
 [NOTE]
 ====
-您只能在Element軟體Web UI中執行此工作。
+您只能在或中執行此工作link:concept_snapmirror_labels.html["Element 軟體 Web UI"]link:../api/concept_element_api_snapshots_overview.html["API方法"]。
 
 ====
 * 您必須確保連接埠5010可用。

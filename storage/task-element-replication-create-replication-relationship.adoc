@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-create-replication-relationship.html 
 sidebar: sidebar 
-keywords: element, ui, create, relationship, element, source, ontap, destination 
+keywords: element, ui, create, relationship, element, source, ontap, destination, cli 
 summary: 您可以使用 SnapMirror 將元素 Volume 的快照複本複寫到 ONTAP 目的地系統。萬一Element站台發生災難、您可以從ONTAP 該系統將資料提供給用戶端、然後在恢復服務時重新啟動Element來源Volume。 
 ---
 = 建立從元素來源到ONTAP 目的地的關係
@@ -22,7 +22,7 @@ summary: 您可以使用 SnapMirror 將元素 Volume 的快照複本複寫到 ON
 +
 [NOTE]
 ====
-您只能在Element軟體Web UI中執行此工作。
+您只能在或中執行此工作link:concept_snapmirror_labels.html["Element 軟體 Web UI"]link:../api/concept_element_api_snapshots_overview.html["API方法"]。
 
 ====
 

@@ -2243,7 +2243,6 @@
   <block id="ef7c876f00f3acddd00fa671f52d0b1f" category="paragraph">UUID</block>
   <block id="472ec58c29ef9a54cbd559744d4a9c90" category="paragraph">叢集的唯一識別碼。</block>
   <block id="4ba6dd2d59030fb9ee4b6523df69086c" category="list-text"><block ref="4ba6dd2d59030fb9ee4b6523df69086c" category="inline-link-macro-rx"></block></block>
-  <block id="591c130bf36c26fe5946fac7eeba4c11" category="list-text"><block ref="5858de35bb153f56bdb4f3fbd003b515" category="inline-link-rx"></block>執行 ]</block>
   <block id="0240dc8e87d832706ecb80b01f87c0a1" category="summary">clusterPair物件包含與本機叢集配對的叢集相關資訊。您可以使用listClusterPas方法擷取本機叢集的叢集式物件清單。</block>
   <block id="343d28c140c3f5ce20a1ac3f8f7dae2c" category="paragraph">叢集名稱</block>
   <block id="3a06c32a878ccae19db7d0f82bd00a47" category="paragraph">配對中其他叢集的名稱。</block>
@@ -6234,7 +6233,6 @@
   <block id="5ce5a4c32220893139a79b7961ce29a5" category="paragraph">支援SnapMirror 10.1及更新版本的軟體、可透過各種系統複製及還原快照。NetApp Element ONTAP</block>
   <block id="160c1461d4530203bf5d64f7eb1c0982" category="paragraph">執行元件10.1及以上的系統包括可直接與ONTAP 執行9.3或更新版本之SnapMirror通訊的程式碼。Element API提供在叢集、磁碟區和快照上啟用SnapMirror功能的方法。此外、Element UI還具備管理Element軟體與ONTAP SnapMirror系統之間SnapMirror關係的功能。</block>
   <block id="62f54381b903447523bd94d04a2364be" category="paragraph">從元件10.3和ONTAP 畫面9.4系統開始、您可以在ONTAP 特定使用案例中、以有限的功能、將來源於畫面的資料複寫到元素磁碟區。</block>
-  <block id="b3720743bae305bb474d5e403e3739bf" category="paragraph">如需詳細資訊、請參閱ONTAP 《關於我們的資料》。</block>
   <block id="ced6f02fa4444aad2c499194d415578f" category="section-title">磁碟區快照、提供資料保護</block>
   <block id="6335301e7b2b5f151c62c7dad20c7c1d" category="paragraph">Volume快照是Volume的時間點複本、您可以稍後用來將磁碟區還原至該特定時間。</block>
   <block id="64ce2a4042bd6dcc85f4453c84c625bd" category="paragraph">雖然快照與Volume複本類似、但快照只是Volume中繼資料的複本、因此您無法掛載或寫入快照。建立磁碟區快照也只需要少量的系統資源和空間、因此建立快照的速度比複製快照快。</block>
@@ -8590,9 +8588,7 @@
   <block id="76f713176b430a51d8711f47a99d0f8a" category="list-text">將元素LUN對應至適當的啟動器群組。</block>
   <block id="57b98362a5b6c4d458251e5989a7cddc" category="list-text">從SAN主機啟動器建立iSCSI工作階段至SAN LIF。</block>
   <block id="adfba1c6b0a4ee17e069c826350fd982" category="list-text">在SAN用戶端上、執行儲存設備重新掃描以偵測連接的LUN。</block>
-  <block id="130f26f0f55531f4375c1d794340ee1f" category="summary">如果關聯的預設原則不適用、您可以使用 ONTAP CLI 建立自訂複寫原則。</block>
   <block id="75f83bbaf7f814729366d9e0bac3638f" category="doc">建立自訂複寫原則</block>
-  <block id="eaf8f20a7ee455b8dc4f49c8782538d9" category="paragraph">使用 ONTAP CLI 建立複寫關係時、您可以使用預設或自訂原則。對於自訂的統一複寫原則、您必須定義一或多個 _ 規則 _ 、以決定在初始化和更新期間傳輸哪些快照複本。</block>
   <block id="30f6b1249bdeb93367e19f178253fdf9" category="paragraph">如果關聯的預設原則不適用、您可以建立自訂複寫原則。例如、您可能想要壓縮網路傳輸中的資料、或是修改 SnapMirror 嘗試傳輸快照複本的次數。</block>
   <block id="1fac572d0bdbbcd92ac120d658648335" category="paragraph">複寫原則的_policy類型_決定其支援的關係類型。下表顯示可用的原則類型。</block>
   <block id="551e9178cd3ea95d0d7df735e2e30c6f" category="cell">原則類型</block>
@@ -8894,9 +8890,6 @@
   <block id="a5b2d4de2841c516a54a4c4b3db587b1" category="summary">執行NetApp Element 支援SnapMirror功能的系統、可透過NetApp ONTAP ®系統複製及還原快照。</block>
   <block id="908041e9f7dbdfd6dd76e9617f0b3454" category="doc">SnapMirror概述</block>
   <block id="e132a123dcc09df973758d5a0e1b3ecc" category="paragraph">執行元件的系統可直接與ONTAP 位於現象系統9.3或更新版本上的SnapMirror通訊。利用此解決方案、您可以NetApp Element 在叢集、磁碟區和快照上啟用SnapMirror功能。此外、Element UI還包含所有必要功能、可管理Element軟體與ONTAP SnapMirror系統之間的SnapMirror關係。</block>
-  <block id="5a5a2d3bbdb5fecdea9055d444ee32af" category="paragraph">您可以在ONTAP 特定使用案例中複寫來源於元素的磁碟區、但功能有限。如需詳細資訊、請參閱ONTAP 《關於我們的資料》。</block>
-  <block id="49c8c279b60ab1926e498dd27ba47ce7" category="inline-link">在Element軟體和ONTAP 不支援的情況下進行複寫</block>
-  <block id="e01755805869b3d9cedc19fff7c5daae" category="paragraph"><block ref="e01755805869b3d9cedc19fff7c5daae" category="inline-link-rx"></block></block>
   <block id="cd7c96dd340046e8b1a1ed84b73227c0" category="summary">在功能性儲存系統中、租戶可以使用帳戶來讓用戶端連線至叢集上的磁碟區。SolidFire您也可以管理SolidFire 適用於某個不實儲存系統的叢集管理員帳戶。</block>
   <block id="d69a8eaf0dfea73cf60506f2c945b71e" category="paragraph">在功能性儲存系統中、租戶可以使用帳戶來讓用戶端連線至叢集上的磁碟區。SolidFire當您建立Volume時、該磁碟區會指派給特定帳戶。您也可以管理SolidFire 適用於某個不實儲存系統的叢集管理員帳戶。</block>
   <block id="0de8022e52b232dc0912129174158b7b" category="list-text"><block ref="0de8022e52b232dc0912129174158b7b" category="inline-link-macro-rx"></block></block>
@@ -9269,12 +9262,10 @@
   <block id="ae5e8801344ab06bde696d2ec863ae4a" category="inline-link">更換故障的H600S系列節點</block>
   <block id="7001df71000b3cb214f8bfa2979d9be7" category="paragraph"><block ref="7001df71000b3cb214f8bfa2979d9be7" category="inline-link-rx"></block></block>
   <block id="a8c738646fb5eef610f0017f7272a70e" category="summary">您可以使用 SnapMirror 將元件磁碟區的快照複本複製到 ONTAP 目的地、確保元件系統上的業務持續運作。</block>
-  <block id="d85808801414821d0bc5b891306017c3" category="doc">在不同時複寫NetApp Element 功能的軟體與ONTAP 非本性概述之間</block>
   <block id="564e8ed9dc801e6baa03256281129a07" category="paragraph">您可以使用 SnapMirror 將元件磁碟區的快照複本複製到 ONTAP 目的地、確保元件系統上的業務持續運作。萬一Element站台發生災難、您可以從ONTAP 該系統將資料提供給用戶端、然後在恢復服務時重新啟動Element系統。</block>
   <block id="34c547b76ee12c36037c1fbd123f8bb7" category="paragraph">從 ONTAP 9 4 開始、您可以將在 ONTAP 節點上建立的 LUN 快照複本複寫回元素系統。您可能在Element站台當機期間建立LUN、或是使用LUN將資料從ONTAP 無法修復的軟體移轉至Element軟體。</block>
   <block id="f095051bf202432565bd83b13f223cbe" category="paragraph">如果適用下列情況、您應該使用元素ONTAP 進行支援：</block>
   <block id="41a6f75570e8276bfdd8656708159091" category="list-text">您想要使用最佳實務做法、而非探索每個可用選項。</block>
-  <block id="c8ca568fa4b4ecd54343a9105ffd3d92" category="list-text">您想要使用 ONTAP 命令列介面（ CLI ）、而非元素 UI 、系統管理員、儲存 / 概念元素複寫 - cree-custom-replements-policy 或自動化指令碼工具。</block>
   <block id="83d990511cbb8a6b72c2da3687386ede" category="list-text">您使用iSCSI將資料提供給用戶端。</block>
   <block id="9ae8f55cfebe47cb9ef25253ceb15709" category="paragraph">如果您需要額外的 SnapMirror 組態或概念性資訊，請參閱<block ref="ef3dbddea8dbf43683fb89931b6b3d33" category="inline-link-macro-rx"></block>。</block>
   <block id="44d71452635eeaf5c7a210399ae9d66d" category="section-title">關於元素與ONTAP 元素之間的複寫</block>
@@ -9320,7 +9311,6 @@
   <block id="feaada5a395125a755e15c612cc44149" category="list-text">SnapMirror必須已獲得ONTAP 關於整個叢集的授權。</block>
   <block id="6d74735d1f487a7d257b5cf661f166a9" category="list-text">您必須在元素ONTAP 和功能區叢集上設定足夠大的磁碟區、才能處理預期的資料傳輸。</block>
   <block id="1c9cc74529c9cbdea35027dbfbe10f61" category="list-text">如果您使用「鏡射資料保險箱」原則類型、則必須設定 SnapMirror 標籤、才能複寫元素快照複本。</block>
-  <block id="5a02e24a7c331265015a74b6a9baafa6" category="paragraph">您只能在Element軟體Web UI中執行此工作。</block>
   <block id="29092ab8561df9315028f9475d370804" category="list-text">您必須確保連接埠5010可用。</block>
   <block id="ec26990081e21ee38c3e0acab1f5447c" category="list-text">如果您預期可能需要移動目的地Volume、則必須確保來源與目的地之間存在全網狀網路連線。元素來源叢集上的每個節點都必須能夠與ONTAP 目的地叢集上的每個節點通訊。</block>
   <block id="c3ffc8e078b339d5886703a912ed9b58" category="section-title">支援詳細資料</block>
@@ -9996,9 +9986,7 @@
   <block id="5aacf8a7df58d7f3a894e0e0e6ae3d8f" category="paragraph">您可以啟用或停用SNMP。啟用SNMP之後、您可以選擇要使用的版本。如果使用版本2、您可以新增申請者、如果使用版本3、您可以設定USM使用者。</block>
   <block id="61f39bcca4ea77a73826a2f0c6781250" category="list-text">* SNMP設陷設定*</block>
   <block id="a4edeacf310754a09768eab55b67e3ee" category="paragraph">您可以識別要擷取的陷阱。您可以為每個陷阱收件者設定主機、連接埠和社群字串。</block>
-  <block id="1ce256ba457175d5ec9b17ca9bda8cf7" category="summary">從 ONTAP 9 4 開始、您可以使用 ONTAP CLI 建立關係、使用 SnapMirror 將在 ONTAP 來源上建立的 LUN 快照複本複寫回元素目的地。</block>
   <block id="5fd75f621e23582f2c44185301f3d0bc" category="doc">建立ONTAP 從來源到元素目的地的關係</block>
-  <block id="f81df90e6adb12b493329cbbb57e4955" category="paragraph">從 ONTAP 9 4 開始、您可以使用 ONTAP CLI 建立關係、使用 SnapMirror 將在 ONTAP 來源上建立的 LUN 快照複本複寫回元素目的地。您可能會使用LUN將資料從ONTAP 功能不全的軟體移轉到元件軟體。</block>
   <block id="be02eee8724cea2420e2adf1d07ddeb5" category="list-text">元素目的地節點必須已可供ONTAP 不必要的人存取。</block>
   <block id="86c156b8e19cececc124a0c7c1f2bec9" category="list-text">必須已啟用元素Volume才能進行SnapMirror複寫。</block>
   <block id="671d4984a0edd201ed04cb12a6e7e546" category="paragraph">您必須以格式指定元素目的地路徑<block ref="e6c8050b8cd0a398b28edeaa070ef325" prefix=" " category="inline-code"></block>、其中「 'lun' 」是實際字串「 'lun' 」、<block ref="b068931cc450442b63f5b3d276ea4297" prefix=" " category="inline-code"></block> 是元素 Volume 的名稱。</block>
@@ -10010,7 +9998,6 @@
   <block id="9a52d6a5d71c5d44563a5e2f1d1fde56" category="paragraph">使用<block ref="8511c2f3ef6c5e8c42a150c01bd8495c" prefix=" " category="inline-code"></block>命令驗證是否已建立 SnapMirror 關係。如需完整的命令語法、請參閱手冊頁。</block>
   <block id="1b8f57d8466ed9be37f7a96ca1ff045e" category="summary">您可以使用工作排程cron create命令來建立複寫工作排程。工作排程會決定SnapMirror何時自動更新排程指派的資料保護關係。</block>
   <block id="6e0983de50056fdacdd9550f613eab0a" category="doc">建立複寫工作排程</block>
-  <block id="44baf633dd4bc03a1ab6d0be125c108a" category="paragraph">使用 ONTAP CLI 、您可以使用命令建立複寫工作排程<block ref="859f5842129c4a4759882f44afc53f67" prefix=" " category="inline-code"></block>。工作排程會決定SnapMirror何時自動更新排程指派的資料保護關係。</block>
   <block id="4cd38d835e28dd8e89e58a585a1635ce" category="paragraph">您可以在建立資料保護關係時指派工作排程。如果您未指派工作排程、則必須手動更新關係。</block>
   <block id="30d4f2aeb7b82779c70416788d971465" category="list-text">建立工作排程：</block>
   <block id="81a9fe82fd59a2c04babfe1577b880cc" category="paragraph"><block ref="bedcaa3bb7cb9fb678c133c3f7789c20" prefix="" category="inline-code"></block></block>
@@ -10029,7 +10016,6 @@
   <block id="df857cb0f08264825fefa55878d286ce" category="paragraph">下列範例使用預設原則建立統一複寫關係<block ref="37e459201e5691c90f616e05271f4ba3" prefix=" " category="inline-code"></block>：</block>
   <block id="97fedbfaebdbcfe68bdc2db0e517c79e" category="paragraph">下列範例使用原則建立統一化的複寫關係<block ref="4403b8bed8329a1a1ba838d590fec221" prefix=" " category="inline-code"></block>：</block>
   <block id="ea71844b20a2af889daba2027461836d" category="paragraph">下列範例使用自訂原則建立統一化的複寫關係<block ref="7d06ce743afb94fd7161f90acba5f66a" prefix=" " category="inline-code"></block>：</block>
-  <block id="393cb83f59911d86cb0cc6143a8b8b15" category="summary">您必須先建立SnapMirror端點、才能建立複寫關係。您只能在Element軟體Web UI中執行此工作。</block>
   <block id="dedd3700704f998555c9779c076f3d9c" category="doc">建立SnapMirror端點</block>
   <block id="410d41840bfe4c79d1cbcbad970381ce" category="paragraph">您必須在元素叢集上啟用SnapMirror。</block>
   <block id="1c405d01246cf1ce44f3d2aca78d23b1" category="list-text">按一下*資料保護*&gt;* SnapMirror端點*。</block>
@@ -10062,7 +10048,6 @@
   <block id="20cc35bf4f534abf7c8e15480973e9cf" category="paragraph">下列範例將具有 SnapMirror 標籤的規則新增<block ref="2a44471da66622bfc5b82888ae83a7dc" prefix=" " category="inline-code"></block>至自訂<block ref="1d5de0bd3d87489e1362714791579989" prefix=" " category="inline-code"></block>原則：</block>
   <block id="b0eff705a5813714cb73d5b4afee11b9" category="paragraph">下列範例將具有 SnapMirror 標籤的規則新增<block ref="b17c9a947d4e38d7975718380fab6b7a" prefix=" " category="inline-code"></block>至自訂<block ref="d8e87c0927539672f54462c837be0b7f" prefix=" " category="inline-code"></block>原則：</block>
   <block id="f0f637ca20caa61073cee1a4ce7e8dfc" category="paragraph">接著、您可以從符合此 SnapMirror 標籤的來源叢集複寫快照複本：</block>
-  <block id="1110b3c9dda10dccac5a64dacf8b5272" category="summary">您必須在元素叢集上啟用SnapMirror、才能建立複寫關係。您只能在Element軟體Web UI中執行此工作。</block>
   <block id="28d0537c10dbc179674ef31f5b5a2bab" category="doc">在元素叢集上啟用SnapMirror</block>
   <block id="c0b5b482ba26a5488d37e9a7bc811294" category="list-text">SnapMirror只能用於搭配NetApp ONTAP 功能集區使用的元素叢集。</block>
   <block id="4afc20f670cf64f0a4b45231ad8a70ba" category="paragraph">Element系統預設會停用SnapMirror。SnapMirror不會在新安裝或升級時自動啟用。</block>
@@ -10070,7 +10055,6 @@
   <block id="446fbff0634d83c1f364b9be13c9b78f" category="list-text">按一下「*叢集*&gt;*設定*」。</block>
   <block id="2acc5709a6d4640c6b4f34e06be0bedd" category="list-text">尋找SnapMirror的叢集專屬設定。</block>
   <block id="4c76080d9f5f428cf8777ab10d3ad89e" category="list-text">單擊*啓用SnapMirror*。</block>
-  <block id="6d42fba9029ac36d49921505785c7e6a" category="summary">您必須在元素來源Volume上啟用SnapMirror、才能建立複寫關係。您只能在Element軟體Web UI中執行此工作。</block>
   <block id="98d336445179a80880568e07dde510b1" category="doc">在元素來源Volume上啟用SnapMirror</block>
   <block id="56701c635309a5e65d18a7422b09c3cd" category="list-text">Volume區塊大小必須為512位元組。</block>
   <block id="b1811edce82ed716d4bc66b1dd1d116f" category="list-text">磁碟區不得參與元素遠端複寫。</block>
@@ -11377,8 +11361,6 @@
   <block id="b456d131470ee117b6ff900f949b80c5" category="paragraph"><block ref="b456d131470ee117b6ff900f949b80c5" category="inline-link-rx"></block></block>
   <block id="0ae5c767cabcaa90f5848cabc66f8aa9" category="inline-link">利用NetApp HCI 功能性、ONTAP 功能性和融合式基礎架構打造您的Data Fabric</block>
   <block id="1791fd435a83f3ee701165e29bb05b2f" category="list-text"><block ref="1791fd435a83f3ee701165e29bb05b2f" category="inline-link-rx"></block></block>
-  <block id="5865b8968ae6d9762765ab7ce3d35fc2" category="inline-link">在不同時複寫NetApp Element 功能的情況下ONTAP</block>
-  <block id="b00bc340461aac1deb8b1a1e1382cf0c" category="list-text"><block ref="b00bc340461aac1deb8b1a1e1382cf0c" category="inline-link-rx"></block></block>
   <block id="8cb89b387c0217f2060ca414b41c63b2" category="summary">有了這個解決方法、您可以使用靜止的軟體或硬體加密、來加密儲存在叢集上的所有資料。SolidFire</block>
   <block id="07134dd620fa410023548b639cca1e69" category="doc">啟用及停用叢集的靜止加密</block>
   <block id="b631bf7f00d77eddfcbf6feca367bd11" category="inline-link-macro">硬體或軟體式加密</block>
@@ -12248,7 +12230,6 @@
   <block id="27f2e04c96b5ac3b10c4de8069658227" category="sidebar">使用群組快照來保護資料</block>
   <block id="cf35d1bd4f63afd1c731729075f91d65" category="sidebar">將磁碟區重新磁碟區備份到群組快照</block>
   <block id="e9c9178d0dcc22e83ce4dafbccebece2" category="sidebar">設定自訂保護網域</block>
-  <block id="42a1881fef50454fa6bd56b43e9ed96e" category="sidebar">在不同時複寫NetApp Element 功能的情況下ONTAP</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">總覽</block>
   <block id="24f47cdbe9ddba774a7cc53e51d9032e" category="sidebar">工作流程</block>
   <block id="49bd24b89b4d379ec9d1baed92d0973e" category="sidebar">在Element軟體中啟用SnapMirror</block>
@@ -12267,4 +12248,31 @@
   <block id="1a9f7cf4eade0ea391d219a7acbeea22" category="cell">11093A10</block>
   <block id="a789af7a3f0be8e6b5b27e8f2c902f38" category="cell">110B3A10</block>
   <block id="7a1a50b4f214356238b1fdd7473fb635" category="cell">NAT3.6</block>
+  <block id="66b9246b0ca9a6c1d9cb4b6b245eb37c" category="inline-link-macro">在 NetApp Element 軟體和 ONTAP 之間執行複寫（ ONTAP CLI ）</block>
+  <block id="ca58c1d1dfb5b23925a5e836cadd440f" category="paragraph">如需更多資訊、請參閱 <block ref="9fff2b653bf9e5c9e6e296244d407e7a" category="inline-link-macro-rx"></block>。</block>
+  <block id="e02d811196d527520d9f9847ef74439d" category="summary">如果關聯的預設原則不適用、您可以建立自訂複寫原則。</block>
+  <block id="e7cb3e43a84c97395c30e6e4d68129f7" category="paragraph">您可以在建立複寫關聯時使用預設或自訂原則。對於自訂的統一複寫原則、您必須定義一或多個 _ 規則 _ 、以決定在初始化和更新期間傳輸哪些快照複本。</block>
+  <block id="388657e2af54b4f8e121163ca5784693" category="inline-link-macro">元素軟體與 ONTAP 之間的複寫（ ONTAP CLI ）</block>
+  <block id="a21a4ab90a18959fa37c0c2fb846d63e" category="paragraph">您可以在ONTAP 特定使用案例中複寫來源於元素的磁碟區、但功能有限。如需更多資訊、請參閱 <block ref="92cf2e7a852a772499cb0000a5d5d5ab" category="inline-link-macro-rx"></block>。</block>
+  <block id="188377347aeb6413e806e53020555d56" category="doc">在 NetApp Element 軟體和 ONTAP 總覽（ ONTAP CLI ）之間執行複寫</block>
+  <block id="1435e27f40347998b5c763bcc4df6b63" category="list-text">您想要使用ONTAP 的是無法使用系統管理程式或自動化指令碼工具的功能、而是使用功能不全的命令列介面（CLI）。</block>
+  <block id="ffcff48a8900b759122138dc74affc48" category="inline-link-macro">Element 軟體 Web UI</block>
+  <block id="faa03ad90cfa8dd02ce4f68b832e5926" category="inline-link-macro">API方法</block>
+  <block id="f3fde60a3a60d61f5adcdf60b79d244d" category="paragraph">您只能在或中執行此工作<block ref="b93072557c65ffea9f42510ec69c2114" category="inline-link-macro-rx"></block><block ref="887e50fc0bb5d7d97f152ed649a55cbc" category="inline-link-macro-rx"></block>。</block>
+  <block id="1743b8faf2fcec8ea2fed428a3ba2746" category="summary">從 ONTAP 9 。 4 開始、您可以使用 SnapMirror 將 ONTAP 來源上建立的 LUN 快照複本複寫回元素目的地。</block>
+  <block id="4a564490593b9dfe3a2ce1d2fff04fe4" category="paragraph">從 ONTAP 9 。 4 開始、您可以使用 SnapMirror 將 ONTAP 來源上建立的 LUN 快照複本複寫回元素目的地。您可能會使用LUN將資料從ONTAP 功能不全的軟體移轉到元件軟體。</block>
+  <block id="77f7f7ae06760be21bad1e934698a2b6" category="paragraph">您可以使用<block ref="859f5842129c4a4759882f44afc53f67" prefix=" " category="inline-code"></block>命令來建立複寫工作排程。工作排程會決定SnapMirror何時自動更新排程指派的資料保護關係。</block>
+  <block id="ec584e493ebc5976220074c48288215d" category="summary">您必須先建立SnapMirror端點、才能建立複寫關係。您只能在元素軟體 Web UI 或 API 方法中執行此工作。</block>
+  <block id="9c792937f37fdf96fa76e6e64ade3121" category="paragraph">您必須先建立SnapMirror端點、才能建立複寫關係。您只能在或中執行此工作<block ref="b93072557c65ffea9f42510ec69c2114" category="inline-link-macro-rx"></block><block ref="9641b9cb3efec10f08ee0a17e27a64d6" category="inline-link-macro-rx"></block>。</block>
+  <block id="2914b577684d6c7f339e6fda22c3487f" category="summary">您必須在元素叢集上啟用SnapMirror、才能建立複寫關係。您只能在元素軟體 Web UI 或 API 方法中執行此工作。</block>
+  <block id="c229b2f8b428f342bff7cf24ff75f1b2" category="inline-link-macro">API方法</block>
+  <block id="0b8667f1f4456982a27ec231d1a84da6" category="paragraph">您必須在元素叢集上啟用SnapMirror、才能建立複寫關係。您只能在元素軟體 Web UI 或使用中執行此工作<block ref="08aeb663b3e636fd7806da6cd0761563" category="inline-link-macro-rx"></block>。</block>
+  <block id="58d35ba486cdacfc31e43fd6a58950a7" category="summary">您必須在元素來源Volume上啟用SnapMirror、才能建立複寫關係。您只能在元素軟體 Web UI 或 API 方法中執行此工作。</block>
+  <block id="5d2e361c0914a6964545e53b54120709" category="paragraph">您必須在元素來源Volume上啟用SnapMirror、才能建立複寫關係。您只能在元素軟體 Web UI 中執行此工作、或使用<block ref="ed0492a679a5ccbd40bf302baf82a4fe" category="inline-link-macro-rx"></block>和 <block ref="50b3ddadfbe173a030d079ab859844eb" category="inline-link-macro-rx"></block> API 方法。</block>
+  <block id="2338f7e5e83af8d305777617f7d4cf8d" category="paragraph">當您將目的地磁碟區設為可寫入、更新失敗後、因為來源與目的地磁碟區上不存在通用的Snapshot複本、或是想要變更關係的複寫原則、您需要重新同步複寫關係。</block>
+  <block id="6d5f69495f8e867162efa46a43db438e" category="list-text">重新同步來源與目的地磁碟區：</block>
+  <block id="d6f79eadbe284e92f33838a69bd8773e" category="paragraph"><block ref="a49916945de69e088fe119f58d0d86bf" prefix="" category="inline-code"></block></block>
+  <block id="6af23f20bfbdb73aca33a4deb42fc5b5" category="paragraph">以下範例重新同步 IP 位址為 10.0.0.11 的來源磁碟區與上的目的地磁碟區<block ref="e4682d2fda48014167b71e8800297170" prefix=" " category="inline-code"></block>之間的<block ref="f2dcd1c21dd6e00e42ff4b9467c5e011" prefix=" " category="inline-code"></block>關係<block ref="d39934ce111a864abf40391f3da9cdf5" prefix=" " category="inline-code"></block>：</block>
+  <block id="6ee6e98dd3f706a9d56d48dbe0b25dcb" category="doc">在元素和 ONTAP 叢集之間使用 SnapMirror 複寫（元素 UI ）</block>
+  <block id="90bed928a242a5706586c0d57bf0fdd4" category="list-text"><block ref="90bed928a242a5706586c0d57bf0fdd4" category="inline-link-macro-rx"></block></block>
 </blocks>

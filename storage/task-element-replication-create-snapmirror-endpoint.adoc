@@ -2,7 +2,7 @@
 permalink: storage/task-element-replication-create-snapmirror-endpoint.html 
 sidebar: sidebar 
 keywords: create, snapmirror, endpoint 
-summary: 您必須先建立SnapMirror端點、才能建立複寫關係。您只能在Element軟體Web UI中執行此工作。 
+summary: 您必須先建立SnapMirror端點、才能建立複寫關係。您只能在元素軟體 Web UI 或 API 方法中執行此工作。 
 ---
 = 建立SnapMirror端點
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 您必須先建立SnapMirror端點、才能建立複寫關係。您只�
 
 
 [role="lead"]
-您必須先建立SnapMirror端點、才能建立複寫關係。您只能在Element軟體Web UI中執行此工作。
+您必須先建立SnapMirror端點、才能建立複寫關係。您只能在或中執行此工作link:concept_snapmirror_labels.html["Element 軟體 Web UI"]link:../api/concept_element_api_snapmirror_api_methods.html["SnapMirror API方法"]。
 
 .開始之前
 您必須在元素叢集上啟用SnapMirror。
